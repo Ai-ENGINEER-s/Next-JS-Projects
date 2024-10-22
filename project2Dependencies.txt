@@ -1,0 +1,12 @@
+
+N°1  : depnendency to hash password 
+---> npm install bcrypt : 
+
+N°2 :  our database  and mongoose that gonna help us manage it 
+
+---> npm install mongodb 
+
+N°3 : next-auth for user authentication  
+
+---> npm install next-auth 
+
