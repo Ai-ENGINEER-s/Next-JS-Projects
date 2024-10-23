@@ -1,6 +1,4 @@
-import { signIn
- } from "./api/auth/[...nextauth]/auth" 
-
+import { signIn } from "../api/auth/[...nextauth]/auth"
  
 export default function SignIn() {
   return (
