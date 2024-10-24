@@ -1,31 +1,30 @@
-import React from 'react'
-import globals from './globals.css' ; 
-import { title } from 'process';
+import React from 'react';
+import React from 'react' ;
+
 
 
 
 export const metadata = {
-    title : "test application" , 
 
-    description : "test app for backend mongodb testing application " , 
-
+    title:"test-application" , 
+    description: "test-application implemented" ,
 }
-
-
-
-
-const RootLayout = ({children}) => {
+const RootLayout = () => {
   return (
-<html lang='eng'>
-<body>
-   
+ <html lang='eng'>
+
+<body className>
+
 <div>
-{children}   
+
+    {children}
+
 </div>
 
 </body>
-</html>
+
+ </html>
   )
 }
 
-export default RootLayout  
+export default RootLayout 
