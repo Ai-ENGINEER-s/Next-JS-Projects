@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import bcrypt from 'bcrypt';
 import connectionToDatabase from "@/utils/mongodb";
 
-export async function post(request) {
+export async function Post(request) {
     try {
         console.log("Starting user registration...");
 

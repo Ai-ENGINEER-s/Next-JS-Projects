@@ -1,7 +1,6 @@
+
+
 import React from 'react';
-import React from 'react' ;
-
-
 
 
 export const metadata = {
@@ -9,7 +8,7 @@ export const metadata = {
     title:"test-application" , 
     description: "test-application implemented" ,
 }
-const RootLayout = () => {
+const RootLayout = ({children}) => {
   return (
  <html lang='eng'>
 

@@ -12,7 +12,7 @@ const connectionToDatabase = async ()=>{
      
      console.log("connected ")
     } catch (error) {
-        
+       console.log(error) 
     }
 }
 
