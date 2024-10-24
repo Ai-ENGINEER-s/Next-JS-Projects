@@ -3,12 +3,12 @@ import { NextResponse } from "next/server";
 import bcrypt from 'bcrypt';
 import connectionToDatabase from "@/utils/mongodb";
 
-export async function POST(request) {
+export async function post(request) {
     try {
         console.log("Starting user registration...");
 
         await connectionToDatabase();
-        console.log("Database connected.");
+        co 
 
         const { name, email, password } = await request.json();
         console.log("Received data:", { name, email });
