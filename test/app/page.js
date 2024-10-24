@@ -1,16 +1,12 @@
-import { signIn
- } from "./api/auth/[...nextauth]/auth" 
+import React from 'react'
 
- 
-export default function SignIn() {
+
+
+
+const Home = () => {
   return (
-    <form
-      action={async () => {
-        "use server"
-        await signIn("google")
-      }}
-    >
-      <button type="submit">Signin with Google</button>
-    </form>
+    <div>Home</div>
   )
-} 
+}
+
+export default Home

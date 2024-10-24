@@ -8,7 +8,7 @@ export async function post(request) {
         console.log("Starting user registration...");
 
         await connectionToDatabase();
-        co 
+        console.log("Database connected.");
 
         const { name, email, password } = await request.json();
         console.log("Received data:", { name, email });

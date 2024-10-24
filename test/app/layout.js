@@ -1,17 +1,31 @@
-"use client"
+import React from 'react'
+import globals from './globals.css' ; 
+import { title } from 'process';
 
-import { SessionProvider } from 'next-auth/react';
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        <SessionProvider>
-          <header>Mon header ici</header>
-          {children}
-          <footer>Mon footer ici</footer>
-        </SessionProvider>
-      </body>
-    </html>
-  );
+
+export const metadata = {
+    title : "test application" , 
+
+    description : "test app for backend mongodb testing application " , 
+
 }
+
+
+
+
+const RootLayout = ({children}) => {
+  return (
+<html lang='eng'>
+<body>
+   
+<div>
+{children}   
+</div>
+
+</body>
+</html>
+  )
+}
+
+export default RootLayout  
